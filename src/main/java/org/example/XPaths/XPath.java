@@ -59,8 +59,7 @@ public interface XPath {
                 CATEGORY_ITEM_FICTION = "//a[@_ngcontent-hsh-c129=''][contains(text(),'Fiction')]",
                 CATEGORY_ITEM_MYSTERY = "//a[@_ngcontent-hsh-c129=''][contains(text(),'Mystery')]",
                 CATEGORY_ITEM_FANTASY = "//a[@_ngcontent-hsh-c129=''][contains(text(),'Fantasy')]",
-
-        CATEGORY_ITEM_ROMANCE = "//a[@_ngcontent-hsh-c129=''][contains(text(),'Romance')]",
+                CATEGORY_ITEM_ROMANCE = "//a[@_ngcontent-hsh-c129=''][contains(text(),'Romance')]",
                 PRICE_FILTER_WRAPPER = "//div[@class='docs-example-viewer-title mat-elevation-z2']";
 
     }

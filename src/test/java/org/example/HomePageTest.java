@@ -15,20 +15,6 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class HomePageTest extends BaseTest {
-/*
-    @Test
-    public void testSelectFirstTheme() {
-
-        getHomePage().clickThemeButton();
-
-        getHomePage().chooseDropDownMenuThemeButton(1);
-        getHomePage().waitElement(1000,getHomePage().getWebElementPriceFilterWrapper());
-
-        String actual = getHomePage().getColorElement(getHomePage().getWebElementPriceFilterWrapper());
-        getHomePage().waitElement(1000,getHomePage().getWebElementPriceFilterWrapper());
-        String expected = "rgba(255, 215, 64, 1)";
-        assertEquals(expected, actual);
-    }*/
 
     @ParameterizedTest
     @ValueSource(ints = {45})
